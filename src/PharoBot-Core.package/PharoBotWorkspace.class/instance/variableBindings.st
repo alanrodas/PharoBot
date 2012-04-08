@@ -1,3 +1,4 @@
 accessing
 variableBindings
-	^ variableBindings
+
+	^variableBindings

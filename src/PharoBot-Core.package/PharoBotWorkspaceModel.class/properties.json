@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PharoBotWorkspaceModel",
+	"pools" : [
+		 ],
+	"super" : "Workspace",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Estado_PincelAbajo",
+	"pools" : [
+		 ],
+	"super" : "EstadoDelRobot",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

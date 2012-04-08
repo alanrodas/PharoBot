@@ -5,12 +5,12 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "NahuelGarbezza 2/10/2012 14:54",
+	"commentStamp" : "NahuelGarbezza 4/7/2012 17:50",
 	"instvars" : [
-		"workspaces" ],
+		 ],
 	"name" : "PharoBotEnvironmentWithObjects",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PharoBotEnvironment",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

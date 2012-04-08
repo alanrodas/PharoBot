@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PharoBotUIWithObjects",
+	"pools" : [
+		 ],
+	"super" : "PharoBotUI",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

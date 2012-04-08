@@ -1,0 +1,3 @@
+accessing
+estado_pincelAbajo
+	^ estado_pincelAbajo

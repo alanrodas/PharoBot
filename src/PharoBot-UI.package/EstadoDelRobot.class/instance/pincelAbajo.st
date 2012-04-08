@@ -1,0 +1,4 @@
+pincel
+pincelAbajo
+
+self subclassResponsibility .

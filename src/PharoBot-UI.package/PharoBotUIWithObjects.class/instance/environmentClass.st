@@ -1,0 +1,4 @@
+accessing
+environmentClass
+
+	^PharoBotEnvironmentWithObjects

@@ -1,0 +1,1 @@
+Contiene configuraciones basicas para iniciar un entorno de PharoBot, como por ejemplo los workspaces.

@@ -1,0 +1,22 @@
+{
+	"category" : "PharoBot-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mundo",
+		"direccion",
+		"estado_pincelArriba",
+		"estado_pincelAbajo",
+		"estado_pincelActual",
+		"ultimaPosicion",
+		"bateria" ],
+	"name" : "RobotMorph",
+	"pools" : [
+		 ],
+	"super" : "TransformationMorph",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
