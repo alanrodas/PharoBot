@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"clearInstance" : "NahuelGarbezza 7/14/2012 21:52",
+		"instance" : "NahuelGarbezza 7/14/2012 21:57" },
+	"instance" : {
+		"addClassNamed:" : "NahuelGarbezza 7/14/2012 22:31",
+		"addRobotClass" : "NahuelGarbezza 7/14/2012 22:15",
+		"classNames" : "NahuelGarbezza 7/14/2012 22:08",
+		"classNames:" : "NahuelGarbezza 7/14/2012 22:10",
+		"createClass:" : "NahuelGarbezza 7/14/2012 22:34",
+		"hasClassNamed:" : "NahuelGarbezza 7/14/2012 22:07",
+		"initialize" : "NahuelGarbezza 7/14/2012 22:09",
+		"removeClass:" : "NahuelGarbezza 7/14/2012 22:57",
+		"removeClassNamed:" : "NahuelGarbezza 7/14/2012 23:01",
+		"robotClass" : "NahuelGarbezza 7/14/2012 22:13" } }

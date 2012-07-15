@@ -1,1 +1,0 @@
-Extension a PharoBotEnvironment que permite manejar clases en el entorno.

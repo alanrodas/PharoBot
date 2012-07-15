@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PincelArriba",
+	"pools" : [
+		 ],
+	"super" : "EstadoRobot",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

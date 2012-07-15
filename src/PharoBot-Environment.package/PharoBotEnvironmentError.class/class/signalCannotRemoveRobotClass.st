@@ -1,0 +1,4 @@
+signaling
+signalCannotRemoveRobotClass
+
+	self signal: self cannotRemoveRobotClass

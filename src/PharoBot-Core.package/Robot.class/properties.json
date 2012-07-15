@@ -5,9 +5,15 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"posicion",
+		"estado",
+		"direccion",
+		"color",
+		"caminos",
+		"bateria",
+		"caminoActual" ],
 	"name" : "Robot",
 	"pools" : [
 		 ],

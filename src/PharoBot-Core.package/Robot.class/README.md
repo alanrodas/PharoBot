@@ -1,0 +1,1 @@
+Soy un robot capaz de hacer cosas simples como moverme a traves del espacio, pudiendo dejar marcas del camino que voy realizando. Tengo una bateria que se va consumiendo cada vez que me muevo, una vez que se agota debe ser recargada.

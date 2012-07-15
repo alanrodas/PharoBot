@@ -1,0 +1,4 @@
+signaling
+signalAttemptToAddRobotClass
+
+	self signal: self attemptToAddRobotClass

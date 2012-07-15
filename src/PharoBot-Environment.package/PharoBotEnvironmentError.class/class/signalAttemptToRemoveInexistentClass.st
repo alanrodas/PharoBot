@@ -1,0 +1,4 @@
+signaling
+signalAttemptToRemoveInexistentClass
+
+	self signal: self attemptToRemoveInexistentClass

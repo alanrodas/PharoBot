@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-Environment",
+	"classinstvars" : [
+		"instance" ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"classNames" ],
+	"name" : "PharoBotGlobalEnvironment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
