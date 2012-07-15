@@ -1,5 +1,5 @@
 {
-	"category" : "PharoBot-Core",
+	"category" : "PharoBot-Environment",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
@@ -7,14 +7,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		"title",
+		"content",
+		"variableBindings" ],
+	"name" : "PharoBotWorkspace",
 	"pools" : [
 		 ],
 	"super" : "Object",

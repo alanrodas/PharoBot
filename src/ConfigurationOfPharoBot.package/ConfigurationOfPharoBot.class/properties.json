@@ -1,20 +1,14 @@
 {
-	"category" : "PharoBot-Core",
+	"category" : "ConfigurationOfPharoBot",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
-		 ],
+		"LastVersionLoad" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		"project" ],
+	"name" : "ConfigurationOfPharoBot",
 	"pools" : [
 		 ],
 	"super" : "Object",

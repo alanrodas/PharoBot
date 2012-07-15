@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"attemptToAddRobotClass" : "NahuelGarbezza 7/14/2012 22:02",
+		"attemptToRemoveInexistentClass" : "NahuelGarbezza 7/14/2012 22:50",
+		"cannotRemoveRobotClass" : "NahuelGarbezza 7/14/2012 22:44",
+		"signalAttemptToAddRobotClass" : "NahuelGarbezza 7/14/2012 22:13",
+		"signalAttemptToRemoveInexistentClass" : "NahuelGarbezza 7/14/2012 22:50",
+		"signalCannotRemoveRobotClass" : "NahuelGarbezza 7/14/2012 22:50" },
+	"instance" : {
+		 } }

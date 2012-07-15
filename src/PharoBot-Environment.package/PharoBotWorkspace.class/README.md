@@ -1,0 +1,1 @@
+I am a PharoBot workspace, I have a title, the content (code) and the variables defined with each corresponding value.

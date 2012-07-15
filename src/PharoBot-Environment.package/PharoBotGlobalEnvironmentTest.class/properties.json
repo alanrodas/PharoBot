@@ -1,5 +1,5 @@
 {
-	"category" : "PharoBot-Core",
+	"category" : "PharoBot-Environment-Tests",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
@@ -7,16 +7,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		"env" ],
+	"name" : "PharoBotGlobalEnvironmentTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

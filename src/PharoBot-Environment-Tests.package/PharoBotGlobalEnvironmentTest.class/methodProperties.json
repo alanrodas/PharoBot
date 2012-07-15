@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "NahuelGarbezza 7/14/2012 22:27",
+		"tearDown" : "NahuelGarbezza 7/14/2012 22:29",
+		"tempClassName" : "NahuelGarbezza 7/14/2012 22:20",
+		"testAddRobotClassShouldFailBecauseItIsDefault" : "NahuelGarbezza 7/14/2012 22:21",
+		"testAddingANewClass" : "NahuelGarbezza 7/14/2012 22:22",
+		"testAddingANewClassIsCreatedInTheImage" : "NahuelGarbezza 7/14/2012 22:28",
+		"testDoesntHaveAClassName" : "NahuelGarbezza 7/14/2012 22:07",
+		"testEnvironmentHasRobotClassByDefault" : "NahuelGarbezza 7/14/2012 22:22",
+		"testGlobalEnvironmentIsSingleton" : "NahuelGarbezza 7/14/2012 21:54",
+		"testNewClassAddedInTheImageShouldExtendFromObject" : "NahuelGarbezza 7/14/2012 22:31",
+		"testRemoveAClassInexistentShouldRaiseAnError" : "NahuelGarbezza 7/14/2012 22:49",
+		"testRemoveAClassRecentlyAdded" : "NahuelGarbezza 7/14/2012 22:54",
+		"testRemoveAClassRecentlyAddedAlsoShouldRemoveItFromTheImage" : "NahuelGarbezza 7/14/2012 23:03",
+		"testRobotClassCannotBeRemoved" : "NahuelGarbezza 7/14/2012 22:44" } }

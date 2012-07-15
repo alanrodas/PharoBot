@@ -1,0 +1,1 @@
+I am responsible of keep track of changes that affects the image (new classes, new methods, etc).

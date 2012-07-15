@@ -5,18 +5,12 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		 ],
+	"name" : "PincelAbajo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "EstadoRobot",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

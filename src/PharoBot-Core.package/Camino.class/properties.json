@@ -7,14 +7,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		"puntos" ],
+	"name" : "Camino",
 	"pools" : [
 		 ],
 	"super" : "Object",

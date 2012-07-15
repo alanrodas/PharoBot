@@ -1,5 +1,5 @@
 {
-	"category" : "PharoBot-Core",
+	"category" : "PharoBot-Environment",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
@@ -7,16 +7,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		 ],
+	"name" : "PharoBotEnvironmentError",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Exception",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

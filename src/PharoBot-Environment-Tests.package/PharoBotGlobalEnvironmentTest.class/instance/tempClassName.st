@@ -1,0 +1,4 @@
+set up
+tempClassName
+
+	^#PharoBotTempClass

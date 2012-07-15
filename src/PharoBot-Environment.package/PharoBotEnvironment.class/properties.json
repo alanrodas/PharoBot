@@ -1,20 +1,14 @@
 {
-	"category" : "PharoBot-Core",
+	"category" : "PharoBot-Environment",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "NahuelGarbezza 4/7/2012 17:49",
 	"instvars" : [
-		"posicion",
-		"estado",
-		"direccion",
-		"color",
-		"caminos",
-		"bateria",
-		"caminoActual" ],
-	"name" : "Robot",
+		"workspaces" ],
+	"name" : "PharoBotEnvironment",
 	"pools" : [
 		 ],
 	"super" : "Object",
