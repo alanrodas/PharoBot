@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildLayoutFor:" : "NahuelGarbezza 4/8/2012 12:34:30",
-		"buildTransitionsFor:" : "NahuelGarbezza 4/8/2012 12:34:30",
-		"createNewClass" : "NahuelGarbezza 4/8/2012 12:34:30",
-		"environmentClass" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"buildLayoutFor:" : "NahuelGarbezza 8/21/2012 00:14",
+		"buildTransitionsFor:" : "NahuelGarbezza 8/21/2012 00:12",
+		"buildTransitionsForCategories:" : "NahuelGarbezza 8/21/2012 00:08",
+		"buildTransitionsForClasses:" : "NahuelGarbezza 8/20/2012 19:15",
+		"buildTransitionsForCodeEditor:" : "NahuelGarbezza 8/21/2012 00:13",
+		"buildTransitionsForInstanceAndClassMethods:" : "NahuelGarbezza 8/21/2012 00:17",
+		"createNewClass" : "NahuelGarbezza 8/20/2012 19:03",
+		"environmentClass" : "NahuelGarbezza 8/20/2012 19:54",
 		"exportClass:" : "NahuelGarbezza 4/8/2012 12:34:30",
 		"importClass" : "NahuelGarbezza 4/8/2012 12:34:30",
 		"removeClass:" : "NahuelGarbezza 4/8/2012 12:34:30" } }

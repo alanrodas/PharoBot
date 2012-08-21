@@ -6,8 +6,8 @@ buildWorkspacePanel
 	browser
 		row: #world span: 6;
 		row: [ :row | row
-			column: #workspaces span: 2;
-			column: #currentWorkspace span: 5;
+			column: #workspaces span: 3;
+			column: #currentWorkspace span: 4;
 			column: #variables span: 3.
 		] span: 4.
 	
@@ -19,22 +19,40 @@ buildWorkspacePanel
 		p list
 			title: 'Workspaces';
 			display: #workspaces;
-			act: [ :pl | self createNewWorkspace ] icon: GLMUIThemeExtraIcons glamorousAdd entitled: 'Nuevo Workspace';
-			selectionAct: [ :w | nil ] entitled: 'Eliminar Workspace'
-	].
+			act: [ self createNewWorkspace ]
+				icon: GLMUIThemeExtraIcons glamorousAdd
+				entitled: 'Agregar nuevo Workspace';
+			act: [ self removeSelectedWorkspace ]
+				icon: GLMUIThemeExtraIcons glamorousRemove
+				entitled: 'Eliminar Workspace';
+			act: [ self renameSelectedWorkspace ]
+				"icon: ???"
+				entitled: 'Renombrar Workspace';
+			act: [ self importWorkspace ]
+				"icon: ???"
+				entitled: 'Importar desde archivo';
+			act: [ self exportSelectedWorkspace ]
+				"icon: ???"
+				entitled: 'Exportar a un archivo' ].
 	
 	browser transmit from: #workspaces; to: #currentWorkspace; andShow: [ :p |
-		p morph display: [ :pharoBotWorkspace | PharoBotWorkspaceAdaptor new workspace: pharoBotWorkspace; buildTextMorph ]
-	].
+		p morph display: [ :pharoBotWorkspace |
+			PharoBotWorkspaceAdaptor new
+				workspaceModel: pharoBotWorkspace;
+				buildTextMorph ]	].
 	
 	browser transmit
 		from: #workspaces;
 		to: #variables;
 		andShow: [ :p | p table
 			display: [ :w | w variableBindings associations ];
-			column: 'Variable' evaluated: #key;
+			column: 'Referencia' evaluated: #key;
 			column: 'Valor' evaluated: [ :a | a value printString ];
-			selectionAct: [ :t | t selection value inspect ] on: $i entitled: 'Inspect'
-		].
+			act: [ self inspectCurrentVariable ]
+				"icon: ???"
+				entitled: 'Inspeccionar';
+			act: [ :t | self removeCurrentVariable ]
+				"icon: ???"
+				entitled: 'Eliminar referencia' ].
 		
 	^self startBrowser: browser

@@ -7,7 +7,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"workspace" ],
+		"workspaceModel" ],
 	"name" : "PharoBotWorkspaceAdaptor",
 	"pools" : [
 		 ],
