@@ -1,0 +1,1 @@
+I adapt the Pharo workspace in order to add more features used in PharoBot, such as notifying changes, adding variables, and so on.

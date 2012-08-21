@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"crearRobotConMundo:conBateria:" : "NahuelGarbezza 4/8/2012 12:34:30" },
+	"instance" : {
+		"bajarPincel" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"bateria" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"bateria:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"borrarCaminos" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"direccion" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"direccion:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelAbajo" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelAbajo:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelActual" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelActual:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelArriba" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"estado_pincelArriba:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"inicializarRobot" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"mover:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"mundo" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"mundo:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"pincelAbajo" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"pincelArriba" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"reasignarRobot" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"recargarBateria" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"subirPincel" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"ultimaPosicion" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"ultimaPosicion:" : "NahuelGarbezza 4/8/2012 12:34:30" } }

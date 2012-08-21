@@ -24,7 +24,7 @@ buildWorkspacePanel
 	].
 	
 	browser transmit from: #workspaces; to: #currentWorkspace; andShow: [ :p |
-		p morph display: [ Workspace new buildTextMorph ]
+		p morph display: [ :pharoBotWorkspace | PharoBotWorkspaceAdaptor new workspace: pharoBotWorkspace; buildTextMorph ]
 	].
 	
 	browser transmit
@@ -33,7 +33,7 @@ buildWorkspacePanel
 		andShow: [ :p | p table
 			display: [ :w | w variableBindings associations ];
 			column: 'Variable' evaluated: #key;
-			column: 'Valor' evaluated: #value;
+			column: 'Valor' evaluated: [ :a | a value printString ];
 			selectionAct: [ :t | t selection value inspect ] on: $i entitled: 'Inspect'
 		].
 		

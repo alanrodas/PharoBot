@@ -1,5 +1,5 @@
 {
-	"category" : "PharoBot-UI",
+	"category" : "PharoBot-Environment",
 	"classinstvars" : [
 		 ],
 	"classtraitcomposition" : "{}",
@@ -7,11 +7,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"carga",
-		"cargaMaxima" ],
-	"name" : "Bateria",
+		 ],
+	"name" : "PharoBotEnvironmentWithClasses",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PharoBotEnvironment",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 defining classes and methods
 addRobotClass
 
-	self classNames add: #Robot
+	self classNames add: self robotClassName

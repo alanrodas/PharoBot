@@ -1,4 +1,4 @@
 constants
 robotClass
 
-	^#Robot
+	^Smalltalk at: self robotClassName ifAbsent: [ PharoBotEnvironmentError signal ]

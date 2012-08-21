@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"crearMundo:" : "NahuelGarbezza 4/8/2012 12:34:30" },
+	"instance" : {
+		"actualizarCaminos:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"ampliarParaMoverEnX:delRobot:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"ampliarParaMoverEnY:delRobot:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"caminos" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"caminos:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"dibujarLineaDesde:conLongitud:conInclinacion:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"dibujarPunto:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"extenderAlEste:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"extenderAlNorte:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"extenderAlOeste:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"extenderAlSur:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"robot" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"robot:" : "NahuelGarbezza 4/8/2012 12:34:30" } }

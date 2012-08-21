@@ -2,4 +2,4 @@ ui opening
 open
 
 	environment := self environmentClass new.
-	^(self buildMainPanel openInWindowLabeled: 'PharoBot') fullScreen; yourself
+	^(self buildMainPanel openInWindowLabeled: 'PharoBot') fullscreen; yourself

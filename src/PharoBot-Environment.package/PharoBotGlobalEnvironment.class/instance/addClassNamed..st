@@ -1,7 +1,7 @@
 defining classes and methods
 addClassNamed: aClassName
 
-	aClassName == self robotClass
+	aClassName == self robotClassName
 		ifTrue: [ PharoBotEnvironmentError signalAttemptToAddRobotClass ].
 	
 	self createClass: aClassName.

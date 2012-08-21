@@ -1,4 +1,4 @@
 accessing
 defaultVariableBindings
 
-	^{ #robotech -> Robot new }
+	^{ #robotech -> self robotClass new }

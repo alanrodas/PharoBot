@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"crearEstado:" : "NahuelGarbezza 4/8/2012 12:34:30" },
+	"instance" : {
+		"inicializarEstadoEnRobot" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"mover:" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"pincelAbajo" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"pincelArriba" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"robot" : "NahuelGarbezza 4/8/2012 12:34:30",
+		"robot:" : "NahuelGarbezza 4/8/2012 12:34:30" } }

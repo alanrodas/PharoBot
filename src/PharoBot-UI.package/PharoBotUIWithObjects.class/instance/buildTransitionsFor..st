@@ -5,16 +5,16 @@ buildTransitionsFor: browser
 		p list
 			title: 'Metodos';
 			display: #robotMethods;
-			selectionAct: [ :m | self removeInstanceMethod: m onClass: self environment robotClass ]
+			selectionAct: [ :m | self removeInstanceMethod: m onClass: PharoBotGlobalEnvironment instance robotClass ]
 			icon: GLMUIThemeExtraIcons glamorousRemove
 			entitled: 'Eliminar metodo'.
 	].
 
 	browser transmit from: #instanceMethods; to: #code; andShow: [ :p | 
 		p smalltalkCode
-			display: [ :selector | self environment robotClass >> selector ];
+			display: [ :selector | PharoBotGlobalEnvironment instance robotClass >> selector ];
 			title: 'Implementacion';
-			smalltalkClass: self environment robotClass;
+			smalltalkClass: PharoBotGlobalEnvironment instance robotClass;
 			act: [ :text | text inspect ]
 			icon: GLMUIThemeExtraIcons glamorousCancel
 			on: $l entitled: 'Cancelar';
