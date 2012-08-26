@@ -8,7 +8,7 @@ baseline01: spec
 		spec project: 'Glamour' with: [
 				spec
 					className: 'ConfigurationOfGlamour';
-					versionString: #'default';
+					versionString: #'stable';
 					repository: 'http://www.squeaksource.com/Glamour' ].
 		spec 
 			package: 'PharoBot-Core';
