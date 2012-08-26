@@ -12,10 +12,13 @@ baseline01: spec
 					repository: 'http://www.squeaksource.com/Glamour' ].
 		spec 
 			package: 'PharoBot-Core';
-			package: 'PharoBot-Tests-Core' with: [
-				spec requires: #('PharoBot-Core' ). ];
-			package: 'PharoBot-UI' with: [
-				spec requires: #('PharoBot-Core' 'Glamour'). ].
+			package: 'PharoBot-Core-Tests'
+				with: [ spec requires: #('PharoBot-Core') ];
+			package: 'PharoBot-Environment'
+				with: [	spec requires: #('PharoBot-Core') ];
+			package: 'PharoBot-Environment-Tests'
+				with: [	spec requires: #('PharoBot-Environment') ];
+			package: 'PharoBot-UI' with: [ spec requires: #('PharoBot-Core' 'Glamour') ].
 		spec 
-			group: 'default' with: #('PharoBot-Core' 'PharoBot-UI' );
-			group: 'Tests' with: #('default' 'PharoBot-Tests-Core' ). ].
+			group: 'default' with: #('PharoBot-Core' 'PharoBot-Environment' 'PharoBot-UI' );
+			group: 'Tests' with: #('default' 'PharoBot-Core-Tests' 'PharoBot-Environment-Tests') ].
