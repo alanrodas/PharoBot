@@ -5,13 +5,12 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"carga",
-		"cargaMaxima" ],
-	"name" : "Bateria",
+		"workspaceModel" ],
+	"name" : "PharoBotWorkspaceAdaptor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Workspace",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

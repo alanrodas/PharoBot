@@ -1,0 +1,4 @@
+bindings
+initializeBindings
+
+	self workspaceModel initializeBindings.

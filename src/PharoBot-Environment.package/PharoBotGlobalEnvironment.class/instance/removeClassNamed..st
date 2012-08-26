@@ -1,7 +1,7 @@
 defining classes and methods
 removeClassNamed: aClassName
 
-	aClassName == self robotClass
+	aClassName == self robotClassName
 		ifTrue: [ PharoBotEnvironmentError signalCannotRemoveRobotClass ].
 	
 	self classNames

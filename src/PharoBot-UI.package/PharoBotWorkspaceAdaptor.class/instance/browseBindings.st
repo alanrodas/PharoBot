@@ -1,0 +1,4 @@
+bindings
+browseBindings
+
+	self workspaceModel variableBindings inspect

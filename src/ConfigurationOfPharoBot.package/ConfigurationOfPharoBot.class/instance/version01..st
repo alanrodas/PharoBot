@@ -6,9 +6,11 @@ version01: spec
 		spec blessing: #'development'.
 		spec description: 'initial version'.
 		spec author: 'NahuelGarbezza'.
-		spec timestamp: '1/30/2012 15:38'.
+		spec timestamp: '8/25/2012 23:32'.
 		spec project: 'Glamour' with: #'stable'.
 		spec 
 			package: 'PharoBot-Core' with: 'PharoBot-Core';
-			package: 'PharoBot-Tests-Core' with: 'PharoBot-Tests-Core';
+			package: 'PharoBot-Core-Tests' with: 'PharoBot-Core-Tests';
+			package: 'PharoBot-Environment' with: 'PharoBot-Environment';
+			package: 'PharoBot-Environment-Tests' with: 'PharoBot-Environment-Tests';
 			package: 'PharoBot-UI' with: 'PharoBot-UI'. ].

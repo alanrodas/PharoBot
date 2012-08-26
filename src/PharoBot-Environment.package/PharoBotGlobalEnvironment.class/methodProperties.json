@@ -3,13 +3,15 @@
 		"clearInstance" : "NahuelGarbezza 7/14/2012 21:52",
 		"instance" : "NahuelGarbezza 7/14/2012 21:57" },
 	"instance" : {
-		"addClassNamed:" : "NahuelGarbezza 7/14/2012 22:31",
-		"addRobotClass" : "NahuelGarbezza 7/14/2012 22:15",
+		"addClassNamed:" : "NahuelGarbezza 7/18/2012 17:32",
+		"addRobotClass" : "NahuelGarbezza 7/18/2012 17:21",
 		"classNames" : "NahuelGarbezza 7/14/2012 22:08",
 		"classNames:" : "NahuelGarbezza 7/14/2012 22:10",
+		"classes" : "NahuelGarbezza 8/20/2012 20:01",
 		"createClass:" : "NahuelGarbezza 7/14/2012 22:34",
 		"hasClassNamed:" : "NahuelGarbezza 7/14/2012 22:07",
 		"initialize" : "NahuelGarbezza 7/14/2012 22:09",
 		"removeClass:" : "NahuelGarbezza 7/14/2012 22:57",
-		"removeClassNamed:" : "NahuelGarbezza 7/14/2012 23:01",
-		"robotClass" : "NahuelGarbezza 7/14/2012 22:13" } }
+		"removeClassNamed:" : "NahuelGarbezza 7/18/2012 17:32",
+		"robotClass" : "NahuelGarbezza 7/18/2012 17:38",
+		"robotClassName" : "NahuelGarbezza 7/18/2012 17:20" } }
