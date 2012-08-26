@@ -1,4 +1,4 @@
-ui building
+ui building - glamour
 buildWorkspacePanel
 
 	|browser|
@@ -20,19 +20,19 @@ buildWorkspacePanel
 			title: 'Workspaces';
 			display: #workspaces;
 			act: [ self createNewWorkspace ]
-				icon: GLMUIThemeExtraIcons glamorousAdd
+				icon: PharoBotIcons addWorkspaceIcon
 				entitled: 'Agregar nuevo Workspace';
 			act: [ self removeSelectedWorkspace ]
-				icon: GLMUIThemeExtraIcons glamorousRemove
+				icon: PharoBotIcons removeWorkspaceIcon
 				entitled: 'Eliminar Workspace';
 			act: [ self renameSelectedWorkspace ]
-				"icon: ???"
+				icon: PharoBotIcons renameWorkspaceIcon
 				entitled: 'Renombrar Workspace';
 			act: [ self importWorkspace ]
-				"icon: ???"
+				icon: PharoBotIcons importWorkspaceIcon
 				entitled: 'Importar desde archivo';
 			act: [ self exportSelectedWorkspace ]
-				"icon: ???"
+				icon: PharoBotIcons exportWorkspaceIcon
 				entitled: 'Exportar a un archivo' ].
 	
 	browser transmit from: #workspaces; to: #currentWorkspace; andShow: [ :p |
@@ -45,14 +45,15 @@ buildWorkspacePanel
 		from: #workspaces;
 		to: #variables;
 		andShow: [ :p | p table
+			title: 'Referencias';
 			display: [ :w | w variableBindings associations ];
 			column: 'Referencia' evaluated: #key;
 			column: 'Valor' evaluated: [ :a | a value printString ];
 			act: [ self inspectCurrentVariable ]
-				"icon: ???"
+				icon: PharoBotIcons inspectReferenceIcon
 				entitled: 'Inspeccionar';
 			act: [ :t | self removeCurrentVariable ]
-				"icon: ???"
+				icon: PharoBotIcons removeReferenceIcon
 				entitled: 'Eliminar referencia' ].
 		
 	^self startBrowser: browser

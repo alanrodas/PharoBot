@@ -4,12 +4,4 @@ buildTransitionsForCodeEditor: browser
 	browser transmit
 		from: #instanceMethods;
 		to: #code;
-		andShow: [ :p | 
-			p morph
-				title: 'Implementacion';
-				display: [ :selector | 
-					| class |
-					class := PharoBotGlobalEnvironment instance robotClass.
-					Browser new
-						setClass: class selector: selector;
-						buildTextMorph ] ]
+		andShow: [ :p | self presentCodeEditorOn: p ]

@@ -1,4 +1,4 @@
-ui building
+ui building - glamour
 buildLayoutFor: browser
 
 	self subclassResponsibility

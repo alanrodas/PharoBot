@@ -1,4 +1,4 @@
-ui building
+ui building - glamour
 buildTransitionsForCodeEditor: browser
 
 	browser transmit
@@ -10,6 +10,6 @@ buildTransitionsForCodeEditor: browser
 				display: [ :selector | 
 					| class |
 					class := PharoBotGlobalEnvironment instance robotClass.
-					Browser new
+					self methodBrowser
 						setClass: class selector: selector;
 						buildTextMorph ] ]

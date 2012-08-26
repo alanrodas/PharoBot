@@ -1,7 +1,7 @@
-ui building
+ui building - morphic
 buildCodeBrowserLabel
 
 	^builder newRow: {
-		builder newImage: ThemeIcons projectIcon.
+		builder newImage: PharoBotIcons codeBrowserIcon.
 		builder newLabel: 'Codigo'.
 	}

@@ -1,7 +1,7 @@
-ui building
+ui building - morphic
 buildWorkspaceLabel
 
 	^builder newRow: {
-		builder newImage: ThemeIcons objectsIcon.
+		builder newImage: PharoBotIcons workspaceAreaIcon.
 		builder newLabel: 'Pruebas'.
 	}

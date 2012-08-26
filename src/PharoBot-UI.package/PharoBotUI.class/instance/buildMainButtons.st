@@ -1,6 +1,11 @@
-ui building
+ui building - morphic
 buildMainButtons
 
+	self flag: #TODO.
+	"Agregar iconos para ambos botones, apuntar a
+		PharoBotIcons >> #saveImageIcon y a 	
+		PharoBotIcons >> #quitIcon"
+	
 	^builder newRow: {
 		builder
 			newButtonFor: self

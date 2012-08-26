@@ -1,4 +1,4 @@
-ui building
+ui building - morphic
 buildMainPanel
 
 	^(builder := UITheme builder) newColumn: {

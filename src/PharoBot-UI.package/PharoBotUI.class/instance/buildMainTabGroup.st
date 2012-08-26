@@ -1,4 +1,4 @@
-ui building
+ui building - morphic
 buildMainTabGroup
 
 	^builder newTabGroup: {

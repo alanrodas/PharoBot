@@ -1,4 +1,4 @@
-ui building
+ui building - glamour
 buildTransitionsForCategories: browser
 
 	browser transmit

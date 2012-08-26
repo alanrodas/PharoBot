@@ -1,4 +1,4 @@
-ui building
+ui building - glamour
 buildTransitionsForClasses: browser
 
 	browser transmit
@@ -8,14 +8,17 @@ buildTransitionsForClasses: browser
 				title: 'Clases';
 				display: #classes;
 				act: [ self createNewClass ]
-					icon: GLMUIThemeExtraIcons glamorousAdd
-					entitled: 'Nueva Clase';
+					icon: PharoBotIcons addClassIcon
+					entitled: 'Nueva';
 				act: [ self removeSelectedClass ]
-					icon: GLMUIThemeExtraIcons glamorousRemove
-					entitled: 'Eliminar Clase';
-				act: [ self importClass ]
-					"icon: ???"
-					entitled: 'Importar Clase';
+					icon: PharoBotIcons removeClassIcon
+					entitled: 'Eliminar';
 				act: [ self exportSelectedClass ]
-					"icon: ???"
-					entitled: 'Exportar Clase'	]
+					icon: PharoBotIcons renameClassIcon
+					entitled: 'Renombrar';
+				act: [ self importClass ]
+					icon: PharoBotIcons importClassIcon
+					entitled: 'Importar';
+				act: [ self exportSelectedClass ]
+					icon: PharoBotIcons exportClassIcon
+					entitled: 'Exportar' ]

@@ -1,0 +1,4 @@
+accessing
+currentClassSelected
+
+	self subclassResponsibility

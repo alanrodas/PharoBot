@@ -1,0 +1,4 @@
+accessing
+currentClassSelected
+
+	^PharoBotGlobalEnvironment instance robotClass
