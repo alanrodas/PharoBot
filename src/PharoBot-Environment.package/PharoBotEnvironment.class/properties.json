@@ -11,6 +11,6 @@
 	"name" : "PharoBotEnvironment",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Announcer",
 	"traitcomposition" : "{}",
 	"type" : "normal" }

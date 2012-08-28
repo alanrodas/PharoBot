@@ -1,6 +1,7 @@
 actions
 createNewWorkspace
 
-	"Pregunta con un popup el nombre, y luego lo agrega y switchea a ese nuevo workspace"
-	self flag: #TODO.
-	self shouldBeImplemented.
+	|dialog|
+	dialog := (TextEntryDialogWindow labelled: 'Ingrese el nombre del nuevo workspace').
+	self mainWindow openModal: dialog.
+	self environment addWorkspace: (PharoBotWorkspace new title: dialog entryText).

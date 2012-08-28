@@ -19,6 +19,7 @@ buildWorkspacePanel
 		p list
 			title: 'Workspaces';
 			display: #workspaces;
+			updateOn: PharoBotWorkspaceAddedEvent from: #yourself;
 			act: [ self createNewWorkspace ]
 				icon: PharoBotIcons addWorkspaceIcon
 				entitled: 'Agregar nuevo Workspace';

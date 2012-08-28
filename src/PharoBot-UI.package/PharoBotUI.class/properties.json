@@ -10,7 +10,8 @@
 		"tabGroup",
 		"builder",
 		"environment",
-		"methodBrowser" ],
+		"methodBrowser",
+		"mainWindow" ],
 	"name" : "PharoBotUI",
 	"pools" : [
 		 ],
