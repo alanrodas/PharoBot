@@ -1,7 +1,10 @@
 actions
 removeSelectedWorkspace
 
-	"Pide confirmacion primero. Se pierden las variables inicializadas y obviamente el contenido del workspace"
-	"Tener en cuenta que se debe lanzar una advertencia si ningun workspace esta seleccionado"
-	self flag: #TODO.
-	self shouldBeImplemented.
+	self selectedWorkspace
+		ifNil: [ self openPleaseSelectDialog: 'Por favor seleccione un workspace' ]
+		ifNotNil: [
+			self openRemoveWorkspaceDialog
+				ifTrue: [
+					self environment removeWorkspace: self selectedWorkspace.
+					self deselectWorkspace ] ].

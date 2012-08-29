@@ -1,9 +1,8 @@
 ui building - glamour
 buildWorkspacePanel
 
-	|browser|
-	browser := GLMTabulator new.
-	browser
+	workspacesBrowser := GLMTabulator new.
+	workspacesBrowser
 		row: #world span: 6;
 		row: [ :row | row
 			column: #workspaces span: 3;
@@ -11,15 +10,16 @@ buildWorkspacePanel
 			column: #variables span: 3.
 		] span: 4.
 	
-	browser transmit to: #world; andShow: [ :p |
+	workspacesBrowser transmit to: #world; andShow: [ :p |
 		p morph display: [ self buildWorldArea ]
 	].
 	
-	browser transmit to: #workspaces; andShow: [ :p |
+	workspacesBrowser transmit to: #workspaces; andShow: [ :p |
 		p list
 			title: 'Workspaces';
 			display: #workspaces;
 			updateOn: PharoBotWorkspaceAddedEvent from: #yourself;
+			updateOn: PharoBotWorkspaceRemovedEvent from: #yourself;
 			act: [ self createNewWorkspace ]
 				icon: PharoBotIcons addWorkspaceIcon
 				entitled: 'Agregar nuevo Workspace';
@@ -36,13 +36,13 @@ buildWorkspacePanel
 				icon: PharoBotIcons exportWorkspaceIcon
 				entitled: 'Exportar a un archivo' ].
 	
-	browser transmit from: #workspaces; to: #currentWorkspace; andShow: [ :p |
+	workspacesBrowser transmit from: #workspaces; to: #currentWorkspace; andShow: [ :p |
 		p morph display: [ :pharoBotWorkspace |
 			PharoBotWorkspaceAdaptor new
 				workspaceModel: pharoBotWorkspace;
 				buildTextMorph ]	].
 	
-	browser transmit
+	workspacesBrowser transmit
 		from: #workspaces;
 		to: #variables;
 		andShow: [ :p | p table
@@ -57,4 +57,4 @@ buildWorkspacePanel
 				icon: PharoBotIcons removeReferenceIcon
 				entitled: 'Eliminar referencia' ].
 		
-	^self startBrowser: browser
+	^self startBrowser: workspacesBrowser

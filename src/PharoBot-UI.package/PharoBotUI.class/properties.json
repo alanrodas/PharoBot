@@ -11,7 +11,9 @@
 		"builder",
 		"environment",
 		"methodBrowser",
-		"mainWindow" ],
+		"mainWindow",
+		"workspacesBrowser",
+		"codeBrowser" ],
 	"name" : "PharoBotUI",
 	"pools" : [
 		 ],
