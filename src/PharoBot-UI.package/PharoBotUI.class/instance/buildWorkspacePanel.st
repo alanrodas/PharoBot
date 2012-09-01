@@ -20,6 +20,7 @@ buildWorkspacePanel
 			display: #workspaces;
 			updateOn: PharoBotWorkspaceAddedEvent from: #yourself;
 			updateOn: PharoBotWorkspaceRemovedEvent from: #yourself;
+			updateOn: PharoBotWorkspaceModifiedEvent from: #yourself;
 			act: [ self createNewWorkspace ]
 				icon: PharoBotIcons addWorkspaceIcon
 				entitled: 'Agregar nuevo Workspace';
@@ -40,6 +41,7 @@ buildWorkspacePanel
 		p morph display: [ :pharoBotWorkspace |
 			PharoBotWorkspaceAdaptor new
 				workspaceModel: pharoBotWorkspace;
+				acceptContents: pharoBotWorkspace content;
 				buildTextMorph ]	].
 	
 	workspacesBrowser transmit

@@ -1,7 +1,16 @@
 actions
 renameSelectedWorkspace
 
-	"Pide nuevo nombre con un popup, y lo renombra"
-	"Tener en cuenta que se debe lanzar una advertencia si ningun workspace esta seleccionado"
-	self flag: #TODO.
-	self shouldBeImplemented
+	self doIfSelectedWorkspace: [
+		|newName|
+		newName := self openRenameWorkspaceDialog.
+		newName ifNotNil: [
+			newName isEmpty | newName isAllSeparators
+				ifTrue: [
+					self openAlertDialog: 'Por favor elija un nombre adecuado para el workspace'.
+					self renameSelectedWorkspace ]
+				ifFalse: [ |wp|
+					wp := self selectedWorkspace.
+					self deselectWorkspace.
+					self environment renameWorkspace: wp title: newName.
+					self selectWorkspace: wp ] ] ]

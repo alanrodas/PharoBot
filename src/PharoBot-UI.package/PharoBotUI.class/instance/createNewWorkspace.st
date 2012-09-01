@@ -6,10 +6,8 @@ createNewWorkspace
 	choice ifNotNil: [
 		choice isEmpty | choice isAllSeparators
 			ifTrue: [
-				UIManager default
-					alert: 'Por favor elija un nombre adecuado para el workspace'
-					title: 'Alerta'.
-					self createNewWorkspace ]
+				self openAlertDialog: 'Por favor elija un nombre adecuado para el workspace'.
+				self createNewWorkspace ]
 			ifFalse: [
 				self environment addWorkspace: (PharoBotWorkspace new title: choice) ] ]
 	
