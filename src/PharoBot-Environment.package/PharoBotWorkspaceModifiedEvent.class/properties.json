@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-Environment",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workspace" ],
+	"name" : "PharoBotWorkspaceModifiedEvent",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
