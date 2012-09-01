@@ -18,13 +18,17 @@
 		"estado" : "FacundoMainere 4/5/2012 20:00",
 		"estado:" : "NahuelGarbezza 7/1/2012 19:46",
 		"estadoInicial" : "NahuelGarbezza 7/1/2012 19:19",
+		"este" : "NahuelGarbezza 9/1/2012 19:47",
 		"initialize" : "NahuelGarbezza 7/1/2012 19:19",
 		"limpiarCaminos" : "NahuelGarbezza 8/20/2012 15:12",
 		"mover:" : "NahuelGarbezza 7/1/2012 19:48",
+		"norte" : "NahuelGarbezza 9/1/2012 19:42",
+		"oeste" : "NahuelGarbezza 9/1/2012 19:47",
 		"pincelEstaAbajo" : "NahuelGarbezza 7/1/2012 19:46",
 		"pincelEstaArriba" : "NahuelGarbezza 7/1/2012 19:46",
 		"posicion" : "FacundoMainere 4/5/2012 20:00",
 		"posicion:" : "NahuelGarbezza 7/1/2012 19:47",
 		"printOn:" : "NahuelGarbezza 8/20/2012 18:27",
 		"realizarMovimiento:" : "NahuelGarbezza 7/1/2012 19:33",
-		"subirPincel" : "NahuelGarbezza 7/1/2012 19:27" } }
+		"subirPincel" : "NahuelGarbezza 7/1/2012 19:27",
+		"sur" : "NahuelGarbezza 9/1/2012 19:47" } }
