@@ -1,3 +1,0 @@
-accessing
-direccion
-	^ direccion

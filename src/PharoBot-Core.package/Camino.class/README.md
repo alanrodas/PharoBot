@@ -1,1 +1,0 @@
-Soy el recorrido que realiza el robot con el pincel bajo. No solo uno un punto de origen con uno de destino, sino que puedo tener puntos intermedios (cuando el robot cambia su direccion).

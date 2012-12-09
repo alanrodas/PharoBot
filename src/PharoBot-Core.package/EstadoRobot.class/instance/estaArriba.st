@@ -1,4 +1,0 @@
-testing
-estaArriba 
-
-	self subclassResponsibility

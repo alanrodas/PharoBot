@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canConsume:" : "NahuelGarbezza 12/9/2012 18:02",
+		"capacity" : "NahuelGarbezza 12/9/2012 18:00",
+		"capacity:" : "NahuelGarbezza 12/9/2012 18:03",
+		"charge" : "NahuelGarbezza 12/9/2012 17:59",
+		"charge:" : "NahuelGarbezza 12/9/2012 17:59",
+		"chargePercentage" : "NahuelGarbezza 12/9/2012 18:03",
+		"consume:" : "NahuelGarbezza 12/9/2012 18:01",
+		"defaultCapacity" : "NahuelGarbezza 12/9/2012 18:03",
+		"initialize" : "NahuelGarbezza 12/9/2012 18:03",
+		"recharge" : "NahuelGarbezza 12/9/2012 18:00" } }

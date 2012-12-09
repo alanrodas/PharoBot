@@ -1,10 +1,10 @@
 initialize-release
 initialize
 
-	self bateria: Bateria new.
+	self battery: Battery new.
 	self color: Color random.
-	self posicion: 0 @ 0.
-	self estado: self estadoInicial.
-	self direccion: 90.
-	self caminos: OrderedCollection new.
+	self position: 0 @ 0.
+	self state: self initialState.
+	self direction: 90.
+	self paths: OrderedCollection new.
 	^self

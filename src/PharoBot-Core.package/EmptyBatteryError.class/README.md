@@ -1,0 +1,1 @@
+I represent the error situation when the robot tries to move without enough battery charge.

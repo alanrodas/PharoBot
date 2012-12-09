@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChargePercentageLessThan100" : "NahuelGarbezza 12/9/2012 18:10",
+		"testChargePercentageOf0" : "NahuelGarbezza 12/9/2012 18:11",
+		"testChargePercentageOf100" : "NahuelGarbezza 12/9/2012 18:11" } }

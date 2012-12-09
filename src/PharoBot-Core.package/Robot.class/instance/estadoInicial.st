@@ -1,4 +1,0 @@
-private
-estadoInicial
-
-	^PincelArriba new

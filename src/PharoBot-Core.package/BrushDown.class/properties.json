@@ -1,0 +1,16 @@
+{
+	"category" : "PharoBot-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "BrushDown",
+	"pools" : [
+		 ],
+	"super" : "RobotState",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

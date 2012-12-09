@@ -1,3 +1,3 @@
-accessing
-color: unColor
-	color := unColor
+private
+color: aColor
+	color := aColor

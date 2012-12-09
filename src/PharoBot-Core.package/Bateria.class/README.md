@@ -1,1 +1,0 @@
-Soy la responsable de almacenar la carga necesaria para los movimientos del robot.

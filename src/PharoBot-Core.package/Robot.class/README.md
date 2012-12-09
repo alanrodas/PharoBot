@@ -1,1 +1,1 @@
-Soy un robot capaz de hacer cosas simples como moverme a traves del espacio, pudiendo dejar marcas del camino que voy realizando. Tengo una bateria que se va consumiendo cada vez que me muevo, una vez que se agota debe ser recargada.
+I am a robot and I am able to do simple things like move through a certain space, leaving marks of the paths I am doing. I have a battery that consumes itself according to my moves, and can be recharged at every moment.

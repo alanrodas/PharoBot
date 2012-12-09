@@ -1,0 +1,1 @@
+I am a path made by a robot. I can join infinite points that determine the route.

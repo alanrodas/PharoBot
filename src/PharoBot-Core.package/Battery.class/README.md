@@ -1,0 +1,1 @@
+I represent the robot's battery. I have a capacity and a charge that decreases, and I can recharge myself.

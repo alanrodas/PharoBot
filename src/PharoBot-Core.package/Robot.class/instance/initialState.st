@@ -1,0 +1,4 @@
+private
+initialState
+
+	^BrushUp new
