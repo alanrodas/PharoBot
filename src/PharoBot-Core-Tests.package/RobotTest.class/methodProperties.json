@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "NahuelGarbezza 12/22/2012 18:40" },
+	"instance" : {
+		"testBrushDownIfItIsAlreadyBrushDownDoesNothing" : "NahuelGarbezza 12/22/2012 18:36",
+		"testBrushUpIfItIsAlreadyBrushUpDoesNothing" : "NahuelGarbezza 12/22/2012 18:36",
+		"testDefaultDirectionIsNorth" : "NahuelGarbezza 12/22/2012 19:02",
+		"testDefaultPositionIsZeroZero" : "NahuelGarbezza 12/22/2012 17:16",
+		"testDefaultStateIsBrushUp" : "NahuelGarbezza 12/22/2012 16:16",
+		"testDirectioningToEast" : "NahuelGarbezza 12/22/2012 18:18",
+		"testDirectioningToNorth" : "NahuelGarbezza 12/22/2012 18:19",
+		"testDirectioningToSouth" : "NahuelGarbezza 12/22/2012 18:19",
+		"testDirectioningToWest" : "NahuelGarbezza 12/22/2012 18:18",
+		"testLiftingTheBrushFinishesTheCurrentPath" : "NahuelGarbezza 12/22/2012 18:56",
+		"testMoveANegativeAmountInXAxis" : "NahuelGarbezza 12/22/2012 18:27",
+		"testMoveANegativeAmountInYAxis" : "NahuelGarbezza 12/22/2012 18:28",
+		"testMoveInDiagonal" : "NahuelGarbezza 12/22/2012 18:33",
+		"testMoveStraightToEast" : "NahuelGarbezza 12/22/2012 18:26",
+		"testMoveStraightToNorth" : "NahuelGarbezza 12/22/2012 18:26",
+		"testMoveStraightToSouth" : "NahuelGarbezza 12/22/2012 18:26",
+		"testMoveStraightToWest" : "NahuelGarbezza 12/22/2012 18:26",
+		"testMovementsWithTheBrushDownModifyTheCurrentPath" : "NahuelGarbezza 12/22/2012 19:02",
+		"testPositionCanBePassedInConstructor" : "NahuelGarbezza 12/22/2012 18:16",
+		"testRobotStringRepresentation" : "NahuelGarbezza 12/22/2012 19:07",
+		"testStateIsSetToBrushDown" : "NahuelGarbezza 12/22/2012 16:13",
+		"testStateIsSetToBrushUp" : "NahuelGarbezza 12/22/2012 16:14",
+		"testToggleBrushUpAndDown" : "NahuelGarbezza 12/22/2012 18:43" } }

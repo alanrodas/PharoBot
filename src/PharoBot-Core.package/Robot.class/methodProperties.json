@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithPosition:" : "NahuelGarbezza 12/22/2012 18:16" },
 	"instance" : {
 		"battery" : "NahuelGarbezza 12/9/2012 18:21",
 		"battery:" : "NahuelGarbezza 12/9/2012 18:21",
@@ -21,6 +21,7 @@
 		"isBrushUp" : "NahuelGarbezza 12/9/2012 18:33",
 		"move:" : "NahuelGarbezza 12/9/2012 18:34",
 		"north" : "NahuelGarbezza 12/9/2012 18:28",
+		"numberOfPaths" : "NahuelGarbezza 12/22/2012 18:55",
 		"paths" : "NahuelGarbezza 12/9/2012 18:22",
 		"paths:" : "NahuelGarbezza 12/9/2012 18:23",
 		"position" : "NahuelGarbezza 12/9/2012 18:30",

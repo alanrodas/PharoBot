@@ -1,0 +1,4 @@
+accessing
+packageNamesUnderTest
+
+	^#('PharoBot-Core')
